@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   appName: 'Udagram',
-  apiHost: process.env.API_HOST
+  apiHost: 'http://udagram-reverse-proxy:8080/api/v0'
 };
 
 /*
